@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+.card {
+    margin: 100px 150px;
+    display: flex;
+    border-radius: 5px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedan-wrapper {
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px 25px;
+    height: 400px;
+
+}
+
+.suvs-wrapper {
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px 25px;
+    height: 400px;
+}
+
+.luxury-wrapper {
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 25px;
+    height: 400px;
+}
+
+.image {
+    padding: 0 25px;
+}
+
+.title {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 32px;
+    padding: 0px 25px;
+}
+
+.body-copy {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 0 25px;
+}
+
+.learn-more {
+    background-color: hsl(0, 0%, 95%);
+    padding: 0 25px;
+}
